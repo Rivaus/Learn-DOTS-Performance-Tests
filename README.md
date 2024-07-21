@@ -54,10 +54,10 @@ Results are very different from different solutions, so my numbers are not very 
 | :---        |    :----:                |    :----:        |    :----:            |    :----:           |        :----: |
 | Solution 1  |  18.5                    | 18.5             | -76%                 | 7                   | 41            |
 | Solution 2  |  9.6                     | 10.5             | 0                    | 7                   | 55            |
-| Solution 3  |  0.682                   | 1.83             | 82%                  | 7                   | 118           |
+| Solution 3  |  0.7                     | 1.8              | 82%                  | 7                   | 118           |
 | Solution 4  |  7.5                     | 8                | 24%                  | 1.7                 | 100           |
 | Solution 5  |  1.1                     | 1.5              | 86%                  | 1.7                 | 340           |
-| Solution 6  |  0.44                    | 0.8              | 92%                  | 1.7                 | 420           |
-| Solution 7  |  0.032                   | 0.5              | 85%                  | 1.7                 | 480           |
+| Solution 6  |  0.45                    | 0.8              | 92%                  | 1.7                 | 420           |
+| Solution 7  |  0.03                    | 0.5              | 85%                  | 1.7                 | 480           |
 
 Rendering times and average fps are just here to show it seems objects are rendered much faster with Entities Graphics but this needs to be detailed to be sure. Here what really matters is comparing Moving Seeker times.
