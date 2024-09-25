@@ -687,6 +687,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b22b5ec79beca640ae5be5ef9fd04e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  useBurst: 1
   numberOfSeekers: 10000
   maxRange: {x: -100, y: 100}
   seekerPrefab: {fileID: 919132149155446097, guid: e8531244d72cfc448b20ff5dacc730c4, type: 3}

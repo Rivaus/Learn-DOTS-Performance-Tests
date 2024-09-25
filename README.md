@@ -48,16 +48,15 @@ Unity and package versions :
 
 ### Results
 
-Results are very different from different solutions, so my numbers are not very accurate, I just picked some "normal" frames from the Profiler and made an average.
+Average are computed from several random frames picked from the profiler (numbers are different enough no to be very accurate).
 
-|             |  Moving Seeker Time (ms) | Player Loop (ms) | Gain over solution 2 | Rendering Time (ms) | Average FPS   |
-| :---        |    :----:                |    :----:        |    :----:            |    :----:           |        :----: |
-| Solution 1  |  18.5                    | 18.5             | -76%                 | 7                   | 41            |
-| Solution 2  |  9.6                     | 10.5             | 0                    | 7                   | 55            |
-| Solution 3  |  0.682                   | 1.83             | 82%                  | 7                   | 118           |
-| Solution 4  |  7.5                     | 8                | 24%                  | 1.7                 | 100           |
-| Solution 5  |  1.1                     | 1.5              | 86%                  | 1.7                 | 340           |
-| Solution 6  |  0.44                    | 0.8              | 92%                  | 1.7                 | 420           |
-| Solution 7  |  0.032                   | 0.5              | 85%                  | 1.7                 | 480           |
-
-Rendering times and average fps are just here to show it seems objects are rendered much faster with Entities Graphics but this needs to be detailed to be sure. Here what really matters is comparing Moving Seeker times.
+|                    |  Moving Seeker Time (ms) | Player Loop (ms) | Gain over solution 2 |
+| :---               |    :----:                |    :----:        |    :----:            |
+| Solution 1         |  19.07                   | 19.94            | -82%                 |
+| Solution 2         |  10.08                   | 10.94            | 0                    |
+| Solution 3         |  0.64                    | 1.82             | 83%                  |
+| Solution 3 (Burst) |  --                      | 1.37             | 87%                  |
+| Solution 4         |  8.02                    | 7.52             | 31%                  |
+| Solution 5         |  0.97                    | 1.40             | 87%                  |
+| Solution 6         |  0.53                    | 0.94             | 91%                  |
+| Solution 7         |  0.06                    | 0.6              | 95%                  |
