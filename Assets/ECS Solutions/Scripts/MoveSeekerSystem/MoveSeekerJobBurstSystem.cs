@@ -54,7 +54,7 @@ namespace O4.ECS
     public partial struct MoveSeekerJobBurst : IJobEntity
     {
         [ReadOnly] public float deltaTime;
-        [ReadOnly] public NativeArray<float3> targets;
+        [ReadOnly] [DeallocateOnJobCompletion] public NativeArray<float3> targets;
         [ReadOnly] public int nbTargets;
 
         [BurstCompile]

@@ -50,7 +50,7 @@ namespace O4.ECS
     public partial struct MoveSeekerJob : IJobEntity
     {
         [ReadOnly] public float deltaTime;
-        [ReadOnly] public NativeArray<float3> targets;
+        [ReadOnly][DeallocateOnJobCompletion] public NativeArray<float3> targets;
         [ReadOnly] public int nbTargets;
 
         public void Execute(ref LocalTransform seeker)
